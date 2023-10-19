@@ -16,6 +16,9 @@ app.get('/api/users',(req,res)=>{
     res.json({message : 'Get Users' })
 })
 
+
+console.log("hello")
+
 app.use(errorHandler)
 connectDB()
 
