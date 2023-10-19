@@ -18,6 +18,7 @@ app.get('/api/users',(req,res)=>{
 
 
 console.log("hello")
+console.log("hello world")
 
 app.use(errorHandler)
 connectDB()
